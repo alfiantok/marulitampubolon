@@ -1,0 +1,810 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Oxygen', sans-serif;
+}
+.bg-black{
+	background: #000;
+	color: #fff;
+}
+.padding-space-2{
+	padding-top: 50px;
+}
+.gold{
+	color: gold;
+}
+
+/* ------------------------ Header Element --------------------------*/
+header{
+	background: black;
+	height: 100vh;
+	background-position: top center;
+	background-size: cover;
+	position: relative;
+}
+.herosection{
+	color: #fff;
+	
+}
+.herosection .herotext{
+	position: absolute;
+	top: 32%;
+}
+.hero1{
+	left: 13%;
+	text-align: right;
+}
+.hero2{
+	right: 13%;
+	text-align: left;
+}
+.contact-icon{
+	position: absolute;
+	bottom: 3%;
+	z-index: 999;
+}
+.contact-icon a{
+	color: #fff;
+	font-size: 15pt;
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: all 0.3s;
+}
+.contact-icon a:hover{
+	color: #888;
+	transition: all 0.3s;
+}
+.contact-logo-right{
+	right: 5%;
+}
+.contact-logo-left{
+	left: 5%;
+}
+/* ------------------------ Header Element --------------------------*/
+
+
+
+
+
+
+
+
+/* ------------------------ Navbar --------------------------*/
+.nav-logo img{
+	width: 150px;
+	margin-top: -15px;
+}
+.navbar{
+	padding: 12px;
+}
+.my-nav{
+	background: rgba(0,0,0,0.8);
+}
+.my-nav .nav li a{
+	color: #fff;
+	font-weight: bold;
+}
+.my-nav .nav .active{
+	background: #fff;
+}
+.my-nav .nav .active a{
+	color: #AA8800;
+	font-size: 12pt;
+}
+.navbar-default{
+	background: none;
+	border:none;
+}
+.navbar-nav>li{
+	margin-top: 6px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+.navbar-nav>li>a{
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+.navbar-nav>li>:hover{
+	background: #fff !important;
+	color: #AA8800 !important;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+/* ------------------------ Navbar --------------------------*/
+
+
+
+
+
+/*----------------------- Swiper -----------------------------*/
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+}
+.swiper-pagination-bullet{
+  background: gold !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide:nth-child(1){
+ 	background: url(img/bg-1.jpg);
+	height: 100vh;
+	background-position: top center;
+	background-size: cover;
+}
+.swiper-slide:nth-child(2){
+ 	background: url(img/bg-4.jpg);
+	height: 100vh;
+	background-position: bottom center;
+	background-size: cover;
+}
+.swiper-slide:nth-child(3){
+ 	background: url(img/bg-3.jpg);
+	height: 100vh;
+	background-position: left center;
+	background-size: cover;
+}
+
+/*----------------------- Swiper -----------------------------*/
+
+
+
+
+
+
+/*----------------------- Song Section -----------------------------*/
+.song-section{
+	background: #000;
+	color: #fff;
+	padding-top: 60px;
+}
+.main-header-style h1{
+	color: gold;
+}
+.main-header-style hr{
+	background: gold;
+}
+.song-cover img{
+	width: 80%;
+}
+.song-cover{
+	width: 10%;
+}
+.song-title{
+	padding-top: 8px;
+	padding-left: 15px;
+	font-size: 14pt;
+	width: 80%;
+	font-family: calibri;
+}
+.song-year{
+	font-size: 10pt;
+	padding-top: 12px;
+	font-family: calibri;
+	width: 10%
+}
+.inline-block{
+	display: inline-block;
+	float: left;
+}
+.music-box{
+	position: relative;
+	margin-bottom: 30px;
+	transition: all 0.3s;
+}
+.songs a{
+	color: #fff;
+}
+.padding-space{
+	padding-top: 100px;
+}
+.my-button{
+	background: #fff;
+	color: #EDCA02;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 0.3s;
+	border-radius: 0px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.my-button:hover{
+	background: gold;
+	color: #fff;
+	transition: all 0.3s;
+}
+/*----------------------- Song Section -----------------------------*/
+
+
+
+
+
+
+/*----------------------- Endors -----------------------------*/
+.endors{
+	background: #1E1E1E;
+	color: #fff;
+}
+.endors .row{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.endors h1{
+	color: gold;
+}
+.endors p{
+	width: 70%;
+	line-height: 3;
+	font-size: 13pt;
+	margin: 0 auto;
+}
+/*----------------------- Endors -----------------------------*/
+
+
+
+
+
+/*----------------------- Discography -----------------------------*/
+
+
+.bg-discography{
+	background: url(img/bg-4.jpg);
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+}
+.hero-text-discography p{
+	margin-top: 25px;	
+}
+.hero-text-discography li{
+	text-align: left;
+	font-size: 10pt;
+	line-height: 2;
+	margin-top: 30px;
+}
+.hero-text-discography{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	padding: 10px;
+	text-align: left;
+}
+
+
+
+/*----------------------- Discography -----------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------- MOVIE TV -----------------------------*/
+
+
+.movie-tv img{
+	width: 100%;
+	-webkit-filter:grayscale(100%);
+	transition: all 0.2s;
+}
+.movie-tv h4{
+	font-weight: 400;
+	line-height: 1.5;
+}
+.movie-tv-pd{
+	padding-bottom: 80px;
+}
+.movie-tv-pd a{
+	color: #fff;
+}
+.movie-tv{
+	transition: all 0.2s;
+}
+.movie-tv-pd .col-sm-6 a:hover .movie-tv img {
+	-webkit-filter:grayscale(0%);
+	transition: all 0.2s;
+}
+
+
+/*----------------------- MOVIE TV -----------------------------*/
+
+
+
+
+
+
+
+/*----------------------- Modal MOVIE TV -----------------------------*/
+.modal-dialog{
+
+}
+.my-modal-content{
+	color: #fff;
+}
+.my-modal-content img{
+	width: 100%;
+	margin: 0 auto;
+}
+.modal-content{
+	background: #40464B;
+	border-radius: 0 !important;
+}
+.modal-content *{
+	border-color: #333;
+}
+.modal-content p{
+	margin-top: 20px;
+	line-height: 2 !important;
+}
+
+/*----------------------- Modal MOVIE TV -----------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------- Portofolio -----------------------------*/
+.portofolio-section{
+	background: url(img/cover-dark.jpg)top center;
+	color: #fff;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.portofolio-section .row{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.porimg img{
+	width: 100%;
+}
+
+/*----------------------- Portofolio -----------------------------*/
+
+
+
+
+
+/*----------------------- Footer -----------------------------*/
+footer{
+	background: black;
+	color: #555;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: 1px solid #fff;
+}
+.color-white{
+	color: #fff;
+}
+.color-white a{
+	color: #fff;
+}
+.padding-footer{
+	padding-top: 50px;
+}
+/*----------------------- Footer -----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------- BIO PAGE -----------------------------*/
+/*----------------------- BIO PAGE -----------------------------*/
+/*----------------------- BIO PAGE -----------------------------*/
+
+
+
+
+/*----------------------- Hero -----------------------------*/
+.hero-bio{
+	left: 27%;
+}
+.header-bio{
+	background: url(img/bg-1.jpg);
+}
+.about{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #000;
+	color: #fff;
+}
+.image-about img{
+	width: 100%;
+}
+/*----------------------- Hero -----------------------------*/
+.caption-about-2{
+	text-align: right;
+}
+.caption-about h2{
+	margin-top: 0px;
+}
+.caption-about p{
+	line-height: 2;
+}
+.button-padding{
+	margin-top: 80px !important;
+}
+.my-modal-content-img{
+	width: 100%;
+	margin: 0 auto;
+}
+.my-modal-content-img img{
+	width: 100%;
+}
+
+/*----------------------- BIO PAGE -----------------------------*/
+/*----------------------- BIO PAGE -----------------------------*/
+/*----------------------- BIO PAGE -----------------------------*/
+
+
+
+
+
+
+/*----------------------- MUSIC PAGE -----------------------------*/
+/*----------------------- MUSIC PAGE -----------------------------*/
+/*----------------------- MUSIC PAGE -----------------------------*/
+
+.header-music{
+	background: url(img/bg-5.jpg);
+}
+.song-list{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.song-cover-music{
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: -20px;
+}
+.song-cover-music img{
+	width: 100%;
+}
+.song-cover-music audio{
+	z-index: 99;
+	position: absolute;
+}
+.audioplayer{
+	position: relative;
+	z-index: 999;
+}
+.music-streaming{
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+.music-streaming hr{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.music-streaming img{
+	width: 120px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.padding-music-video{
+	margin-top:30px;
+	padding: 10px;
+	border:1px solid gold;
+}
+.space-bottom{
+	margin-bottom: 100px;
+}
+/*----------------------- MUSIC PAGE -----------------------------*/
+/*----------------------- MUSIC PAGE -----------------------------*/
+/*----------------------- MUSIC PAGE -----------------------------*/
+
+
+
+
+/*----------------------- Event Page -----------------------------*/
+/*----------------------- Event Page -----------------------------*/
+/*----------------------- Event Page -----------------------------*/
+
+.header-event{
+	background: url(img/bg-8.jpg);
+	background-size: cover;
+}
+.image-event-place{
+	background-size: cover;
+	border:1px solid #fff;
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+}
+.event-card h4{
+	margin-top: 20px;
+}
+.image-event-place{
+	background: url(img/konser1.jpg)center;
+	background-size: cover;
+}
+.image-event-place-2{
+	background: url(img/konser2.jpg)top;
+	background-size: cover;
+}
+.image-event-place-3{
+	background: url(img/konser3.jpg)top;
+	background-size: cover;
+}
+.image-event-place-4{
+	background: url(img/konser4.jpg)top;
+	background-size: cover;
+}
+
+/*----------------------- Event Page -----------------------------*/
+/*----------------------- Event Page -----------------------------*/
+/*----------------------- Event Page -----------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+.my-modal-news h4,.my-modal-news h3{
+	line-height: 1.7;
+}
+.header-news{
+	background:url(img/bg-6.jpg);
+}
+.image-event-place{
+	background-size: cover;
+	border:1px solid #fff;
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+}
+.news-box a{
+	color: #fff;
+}
+.news-box a:hover h4{
+	text-decoration: underline;
+}
+.news-box a h4{
+	line-height: 1.4;
+}
+.image-news-1{
+	background: url(img/news1.jpg);
+	background-size: cover;
+}
+.image-news-2{
+	background: url(img/news2.jpg);
+	background-size: cover;
+}
+.image-news-3{
+	background: url(img/news3.jpg);
+	background-size: cover;
+}
+.padding-space-news{
+	padding-top: 140px;
+}
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+
+
+
+
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+.header-gallery{
+	background: url(img/bg-7.jpg)no-repeat;
+	background-color: black;
+	background-size: cover;
+
+}
+.gg-screen h1{
+	opacity: 0 !important;
+}
+.gg-element img{
+	border-radius: 0 !important;
+}
+.hero-gal{
+	right: 30% !important;
+}
+
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+/*----------------------- NEWS PAGE -----------------------------*/
+
+
+
+/*----------------------- Contact -----------------------------*/
+/*----------------------- Contact -----------------------------*/
+/*----------------------- Contact -----------------------------*/
+.contact-box{
+	border:1px solid #fff;
+	height: 450px;
+	overflow: hidden;
+
+}
+.contact-contact{
+	padding-left: 30px;
+	color: #fff;
+	height: 450px;
+}
+.icon-contact i{
+	font-size: 20pt;
+	margin-top:20px;
+}
+.contact-content{
+	line-height: 1.7;
+	font-size: 11pt;
+	margin-top:20px;
+}
+.contact-content a{
+	color: #fff;
+}
+.image-contact{
+	background: url(img/bg-1.jpg)center;
+	background-size: cover;
+}
+/*----------------------- Contact -----------------------------*/
+/*----------------------- Contact -----------------------------*/
+/*----------------------- Contact -----------------------------*/
+
+
+
+
+/*---------------------------- Responsive Fix ----------------*/
+@media(max-width: 1006px){
+	.hero21{
+		display: none;
+	}
+	.hero11{
+		text-align: center;
+		left: 50%;
+		-webkit-transform:translate(-50%,0%);
+		background: rgba(0,0,0,0.5);
+		padding: 10px;
+	}
+}
+@media(max-width: 782px){
+	.navbar-default{
+		background: rgba(0,0,0,0.8);
+	}
+	.nav-logo img{
+		width: 110px;
+		margin-top: -10px;
+	}
+	.h21{
+		text-align: center;
+	}
+	.h31{
+		right: 5%;
+		width: 300px;
+		text-align: right;
+	}
+	.swiper-slide:nth-child(3){
+		background-position: center;
+	}
+	.bg-discography{
+		background-position: center;
+		text-align: center;
+	}
+	.hero-text-discography{
+		background: rgba(0,0,0,0.5);
+		left: 2%;
+		line-height: 2;
+	}
+	.hero-text-discography li{
+		list-style: none;
+	}
+	.movie-tv h4{
+		font-size: 10pt;
+		font-weight: normal !important;
+	}
+	.hero11{
+		top: 60% !important;
+	}
+	h1{
+		font-size: 20pt;
+	}
+	footer{
+		text-align: center;
+		line-height: 2;
+	}
+	.portofolio-section{
+		background-attachment: scroll;
+	}
+	.song-title{
+		padding-top: 0px;
+	}
+	.song-year{
+		padding-top: 5px;
+	}
+	.caption-about h2{
+		margin-top: 20px;
+	}
+	.caption-about-2{
+		text-align: left;
+	}
+	.header-bio{
+		background-position: center top;
+	}
+	.header-music{
+		background-position: center;
+	}
+	.hero-bio{
+		background: rgba(0,0,0,0.8);
+		text-align: center;
+		top: 70% !important;
+		padding: 10px;
+	}
+	.hero-gal{
+		background: rgba(0,0,0,0.8);
+		text-align: center;
+		left:30%;
+		top: 70% !important;
+		padding: 10px;
+	}
+	.header-event{
+		background-position: right top;
+	}
+	.header-gallery{
+		background-position: left;
+	}
+	.header-news{
+		background-position: center;
+		background-size: cover;
+	}
+	.contact-contact{
+		height: auto;
+		padding-bottom: 20px;
+	}
+}
